@@ -22,6 +22,15 @@ app.get('/projects', function (req, res) {
 app.get('/skills', function (req, res) {
     res.render('skills.ejs');
 });
+app.get('/interests', function (req, res) {
+    res.render('interests.ejs');
+});
+app.get('/blog', function (req, res) {
+    res.render('blog.ejs');
+});
+app.get('/social', function (req, res) {
+    res.render('social.ejs');
+});
 app.use(function (req, res) {
     res.send(404);
 });

@@ -86,6 +86,5 @@ function draw(words) {
 }
 
 export default () => {
-  layout.start();
-  setInterval(() => layout.start(), 1000)
+  layout.start()
 }

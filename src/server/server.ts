@@ -31,6 +31,18 @@ app.get('/skills', (req, res): void => {
 	res.render('skills.ejs')
 })
 
+app.get('/interests', (req, res): void => {
+	res.render('interests.ejs')
+})
+
+app.get('/blog', (req, res): void => {
+	res.render('blog.ejs')
+})
+
+app.get('/social', (req, res): void => {
+	res.render('social.ejs')
+})
+
 app.use((req, res): void => {
 	res.send(404)
 })
