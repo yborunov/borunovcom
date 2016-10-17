@@ -54,6 +54,10 @@
 	
 	__webpack_require__(5);
 	
+	$(".button-collapse").sideNav({
+		menuWidth: 150
+	});
+	
 	window.renderSkillsCloud = _skillsCloud2.default;
 
 /***/ },
